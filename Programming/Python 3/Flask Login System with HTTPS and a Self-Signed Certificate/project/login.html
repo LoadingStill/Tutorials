@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    {% if error %}
+        <p style="color:red">{{ error }}</p>
+    {% endif %}
+    <form method="post" action="{{ url_for('login') }}">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Log In">
+    </form>
+</body>
+</html>
+
+<! --
+In this example, we are using HTML and Flask's templating engine to create a login page that includes a form with fields for username and password.
+If there is an error with the login, we display a message in red. When the form is submitted, it sends a POST request to the /login route in our Flask application.
+Note that the form action is set to {{ url_for('login') }}, which generates the correct URL for the login route regardless of the application's URL structure.
+-->

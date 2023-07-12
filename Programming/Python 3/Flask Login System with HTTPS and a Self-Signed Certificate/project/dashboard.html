@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the Dashboard!</h1>
+    <p>You are now logged in.</p>
+    <a href="{{ url_for('logout') }}">Log Out</a>
+</body>
+</html>
+
+<!--
+In this example, we are using HTML and Flask's templating engine to create a dashboard page that includes a welcome message and a link to log out.
+When the user clicks the "Log Out" link, it sends a GET request to the /logout route in our Flask application to clear the session and redirect the user to the login page.
+-->
