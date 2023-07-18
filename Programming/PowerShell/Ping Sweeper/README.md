@@ -10,20 +10,23 @@ The Ping Sweep PowerShell Script is a utility that automates the process of ping
 
 ## Usage
 
-1. Create a file named `ping.txt` and list the IP addresses or IP address ranges you want to ping, each on a separate line.
-    - Example:
+1. Create a file named `ping.txt` and list the IP addresses or IP address ranges you want to ping, each on a separate line. Ensure that the `ping.txt` file is located in the same directory as the `ping-sweep.ps1` script.
+
+    - Example `ping.txt` contents:
     ```
     192.168.0.1
     192.168.0.2
     10.1.25.0/24
     ```
 
-2. Run the PowerShell script `ping-sweep.ps1` using PowerShell:
+2. Run the PowerShell script `ping-sweep.ps1` using PowerShell. The `ping_results.txt` file will be created in the same directory as the script.
+
+    - Example command:
     ```
-    PS C:\> .\ping-sweep.ps1
+    PS C:\Path\To\Script> .\ping-sweep.ps1
     ```
 
-3. After execution, the ping results will be saved in a file named `ping_results.txt`.
+3. After execution, the ping results will be saved in a file named `ping_results.txt` located in the same directory as the script.
 
 ## Supported Devices
 
