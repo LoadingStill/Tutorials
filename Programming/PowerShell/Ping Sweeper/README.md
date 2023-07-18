@@ -14,6 +14,7 @@ The Ping Sweep PowerShell Script is a utility that automates the process of ping
     - Example:
     ```
     192.168.0.1
+    192.168.0.2
     10.1.25.0/24
     ```
 
