@@ -1,5 +1,6 @@
-$ipAddresses = Get-Content -Path "$env:USERPROFILE\Documents\ping.txt"
-$outputFile = "$env:USERPROFILE\Documents\ping_results.txt"
+$scriptPath = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
+$ipAddresses = Get-Content -Path "$scriptPath\ping.txt"
+$outputFile = Join-Path -Path $scriptPath -ChildPath "ping_results.txt"
 
 foreach ($ip in $ipAddresses) {
     if ($ip -like '*\*') {
@@ -16,10 +17,10 @@ foreach ($ip in $ipAddresses) {
             $pingReply = Test-Connection -ComputerName $currentIP.IPAddressToString -Count 1 -Quiet
             
             if ($pingReply) {
-                "$($currentIP.IPAddressToString): Reply" | Out-File -Append -FilePath $outputFile
+                "${currentIP.IPAddressToString}: Reply" | Out-File -Append -FilePath $outputFile
             }
             else {
-                "$($currentIP.IPAddressToString): No Reply" | Out-File -Append -FilePath $outputFile
+                "${currentIP.IPAddressToString}: No Reply" | Out-File -Append -FilePath $outputFile
             }
             
             $currentIP = [System.Net.IPAddress]::Parse($currentIP.GetAddressBytes() + 1)
@@ -29,10 +30,10 @@ foreach ($ip in $ipAddresses) {
         $pingReply = Test-Connection -ComputerName $ip -Count 1 -Quiet
     
         if ($pingReply) {
-            "$ip: Reply" | Out-File -Append -FilePath $outputFile
+            "${ip}: Reply" | Out-File -Append -FilePath $outputFile
         }
         else {
-            "$ip: No Reply" | Out-File -Append -FilePath $outputFile
+            "${ip}: No Reply" | Out-File -Append -FilePath $outputFile
         }
     }
 }
