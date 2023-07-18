@@ -39,7 +39,3 @@ The Ping Sweep PowerShell Script can be used on any device that supports PowerSh
 - The script requires administrative privileges to execute the `Test-Connection` cmdlet.
 - The script assumes that the target IP addresses are reachable from the machine where it is executed.
 - For comprehensive network scanning or vulnerability assessments, specialized tools and techniques should be used.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
