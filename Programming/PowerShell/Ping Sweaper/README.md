@@ -1,16 +1,38 @@
-A ping sweep is a network scanning technique used to discover active hosts within a given IP address range. The PowerShell script we provided automates the process of pinging multiple IP addresses and recording the results.
+# Ping Sweep PowerShell Script
 
-Here is a detailed use case and description of the ping sweep script:
+The Ping Sweep PowerShell Script is a utility that automates the process of pinging multiple IP addresses or IP address ranges to identify active hosts on a network. This script is useful for network administrators, security professionals, or anyone who needs to assess the availability and responsiveness of devices within a specified IP range.
 
-Use Case:
-The ping sweep script is useful in scenarios where you want to identify which IP addresses within a specified range are active and responding to network requests. It can be particularly helpful for network administrators or security professionals who need to assess the availability of devices on a network or identify potentially vulnerable or misconfigured systems.
+## Features
 
-Description:
-The PowerShell script reads a file named "ping.txt" that contains a list of IP addresses and/or IP address ranges. It uses the Test-Connection cmdlet to ping each IP address individually or iterates through the IP address ranges using CIDR notation. The script then records whether each IP address responded to the ping or not and saves the results in a file named "ping_results.txt".
+- Performs a ping sweep on a list of IP addresses or IP address ranges.
+- Records ping results (Reply or No Reply) for each IP address in a separate file.
+- Supports both individual IP addresses and CIDR notation for IP address ranges.
 
-Why You Would Use It:
-The ping sweep script saves time and effort by automating the process of pinging multiple IP addresses or ranges. Rather than manually executing individual ping commands and recording the results, the script handles these tasks for you. It provides a quick and efficient way to scan a range of IP addresses, identify active hosts, and determine their responsiveness on the network.
+## Usage
 
-Using the script helps streamline network troubleshooting, network inventory management, and security assessments. It enables network administrators to identify and address potential connectivity issues, validate IP address usage, and gather information about the network's overall health and availability.
+1. Create a file named `ping.txt` and list the IP addresses or IP address ranges you want to ping, each on a separate line.
+    - Example:
+    ```
+    192.168.0.1
+    10.1.25.0/24
+    ```
 
-Please note that while the ping sweep script can assist in identifying active hosts, it does not provide detailed network scanning capabilities or vulnerability assessment. For comprehensive network scanning or security assessments, specialized tools and techniques should be employed.
+2. Run the PowerShell script `ping-sweep.ps1` using PowerShell:
+    ```
+    PS C:\> .\ping-sweep.ps1
+    ```
+
+3. After execution, the ping results will be saved in a file named `ping_results.txt`.
+
+## Supported Devices
+
+The Ping Sweep PowerShell Script can be used on any device that supports PowerShell, including:
+- Windows computers (Desktops, Laptops, Servers)
+- Virtual machines running Windows OS
+- Windows-based network devices
+
+## Limitations
+
+- The script requires administrative privileges to execute the `Test-Connection` cmdlet.
+- The script assumes that the target IP addresses are reachable from the machine where it is executed.
+- For comprehensive network scanning or vulnerability assessments, specialized tools and techniques should be used.
