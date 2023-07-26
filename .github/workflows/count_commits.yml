@@ -24,7 +24,7 @@ jobs:
       run: cd Programming/Python3/
 
     - name: Count Commits
-      run: python ../../count_commits.py
+      run: python ../../../count_commits.py
 
     - name: Update Badge
       run: |
