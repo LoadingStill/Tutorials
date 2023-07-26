@@ -1,4 +1,4 @@
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/LoadingStill/Tutorials/tree/main/Programming/Python%203)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/LoadingStill/Tutorials)
 ![GitHub last commit](https://img.shields.io/github/last-commit/LoadingStill/Tutorials)
 # Programming Tutorials - Python 3
 
