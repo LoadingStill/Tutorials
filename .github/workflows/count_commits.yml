@@ -20,11 +20,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Change to 'Programming/Python3/' directory
-      run: cd Programming/Python3/
-
     - name: Count Commits
-      run: python ../../../count_commits.py
+      run: python $GITHUB_WORKSPACE/.github/workflows/count_commits.py
 
     - name: Update Badge
       run: |
