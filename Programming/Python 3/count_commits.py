@@ -1,6 +1,6 @@
 import subprocess
 
-folder_path = "Tutorials/Programming/Python 3"
+folder_path = "Tutorials/Programming/Python 3/"
 
 # Get commit count for the specific folder
 cmd = f'git rev-list --count HEAD -- "{folder_path}"'
