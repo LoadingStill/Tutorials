@@ -16,12 +16,15 @@ Your feedback is valuable to us! If you have any questions, suggestions, or spot
 
 Example:
 
-Title: Issue - Python3 - hello_world.py
+```
+Title:
+Issue - Python3 - hello_world.py
 
 Description:
 I noticed that the if statement in the hello_world.py file is incorrect. This is how it should be written instead:
 
 **Link:** [Python If...Else - w3schools](https://www.w3schools.com/python/gloss_python_else.asp)
+```
 
 ## Let's Get Started!
 
