@@ -1,3 +1,5 @@
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/LoadingStill/Tutorials/main)
+![GitHub last commit](https://img.shields.io/github/last-commit/LoadingStill/Tutorials)
 # Programming Tutorials - Python 3
 
 Welcome to the Programming Tutorials repository for Python 3! In this repository, you'll find guides and code examples related to Python programming. Everything provided here is free to use and learn from. Whether you're a beginner or an experienced developer, you are welcome to explore the content.
