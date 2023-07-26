@@ -21,7 +21,7 @@ jobs:
         python-version: '3.x'
 
     - name: Count Commits
-      run: python $GITHUB_WORKSPACE/.github/workflows/count_commits.py
+      run: python .github/workflows/count_commits.py
 
     - name: Update Badge
       run: |
