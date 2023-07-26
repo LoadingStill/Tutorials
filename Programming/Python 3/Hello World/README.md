@@ -1,7 +1,7 @@
 To run the above code in PyCharm and see the "Hello, World!" output:  
   
-1. Install Python and PyCharm if you haven't already (refer to the previous instructions).
-2. Open PyCharm and create a new project.
+1.  Install Python and PyCharm if you haven't already (refer to the previous instructions).
+2.  Open PyCharm and create a new project.
 3. Create a new Python file named hello_world.py inside the project.
 4. Copy the code above into the hello_world.py file.
 5. Save the file (Ctrl + S or Cmd + S).
