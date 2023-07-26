@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
+      with:
+        ref: main  # Specify the branch explicitly if needed
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -25,4 +27,4 @@ jobs:
       run: |
         count=$(cat commit_count.txt)
         sed -i "s/COUNT/$count/" README.md
-      if: success()  # Only update the badge if the previous steps were successful
+      if: success()
