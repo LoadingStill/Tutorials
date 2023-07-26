@@ -27,4 +27,4 @@ https://www.w3schools.com/python/gloss_python_else.asp
 
 ## Let's Get Started!
 
-Feel free to explore the content in the Python 3 folder and start your learning journey with our programming tutorials. Happy coding! 🚀  
+Feel free to explore the content in the Python 3 folder and start your learning journey with our programming tutorials. Happy coding! 💻  
