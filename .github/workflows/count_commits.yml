@@ -1,0 +1,28 @@
+name: Count Commits
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  count_commits:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Count Commits
+      run: python count_commits.py
+
+    - name: Update Badge
+      run: |
+        count=$(cat commit_count.txt)
+        sed -i "s/COUNT/$count/" README.md
+      if: success()  # Only update the badge if the previous steps were successful
