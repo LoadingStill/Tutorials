@@ -20,6 +20,9 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: Change to 'Tutorials/Programming/Python 3/' directory
+      run: cd Tutorials/Programming/Python\ 3/
+
     - name: Count Commits
       run: python count_commits.py
 
