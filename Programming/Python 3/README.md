@@ -1,4 +1,4 @@
-![GitHub commit activity]("https://img.shields.io/github/commit-activity/y/LoadingStill/Tutorials/Programming/Python 3")
+![GitHub commit activity]('https://img.shields.io/github/commit-activity/y/LoadingStill/Tutorials/Programming/Python 3')
 ![GitHub last commit](https://img.shields.io/github/last-commit/LoadingStill/Tutorials)
 # Programming Tutorials - Python 3
 
