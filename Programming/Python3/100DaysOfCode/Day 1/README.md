@@ -15,13 +15,14 @@ Printing will remove the "" when used to print string (text), not code.
 print ("Hello world!")
 # this is a comment
 ```
+This output will be, `Hello world!`
 Comments in Python are preceded by a #.  
 Comments do not have to be on their own line you can put it after a line of code, it can look nicer to you to do it that way so either way is fine.  
 
 ```
 print ("Hello world!") # this is a comment
 ```
-This block of code will print,   Hello World!  
+This block of code will print, `Hello World!`  
 Nothing will follow it. Comments are not shown anywhere expect in the source code.  The output omits coments.
 
 ### Debugging  
