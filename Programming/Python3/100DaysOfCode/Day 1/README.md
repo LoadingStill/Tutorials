@@ -23,6 +23,14 @@ print ("Hello world!") # this is a comment
 This block of code will print, `Hello World!`  
 Nothing will follow it. Comments are not shown anywhere expect in the source code.  The output omits coments.
 
+`print("Hello world!\nHello World!")`
+This line of codeprints 2 lines. `\n` means to start a new line   
+The output is    
+```
+Hello World!
+Hello World!
+```
+
 ### Debugging  
 ```
 print ("Hello world!)
