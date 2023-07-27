@@ -1,16 +1,23 @@
 # Goals  
 
-## Printing  
+## Lessons
+### Printing  
 
 
-## Commenting  
+### Commenting  
 
 
-## Debugging  
+### Debugging  
 
 
-## Sting Manipulation  
+### Sting Manipulation  
 
 
-## Variables  
+### Variables  
 
+
+
+
+
+
+## Project - Band Name Generator
