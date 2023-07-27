@@ -57,7 +57,11 @@ This error is because there is a missing " between, ! and ).
 
 
 ### Variables  
-
+```
+name = input("What is your name? ")
+print(name)
+```
+This will print the name you input.  Name is a variable in this code.
 
 
 
