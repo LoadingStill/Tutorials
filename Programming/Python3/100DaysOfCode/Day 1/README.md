@@ -7,13 +7,24 @@
 print ("Hello world!")
 ```
 Printing will remove the "" when used to print string (text), not code.  
-**""** Shows the beginning and the end of a string.  
+"" Shows the beginning and the end of a string.  
 
 
 ### Commenting  
 
 
 ### Debugging  
+```
+print ("Hello world!)
+
+Error:
+  File "main.py", line 2
+    print ("Hello world!)
+                        ^
+SyntaxError: EOL while scanning string literal
+```
+You can solve this error by copying the line, "SyntaxError: EOL while scanning string literal" and paste that into google.  
+This error is because there is a missing " between, ! and ).
 
 
 ### Sting Manipulation  
