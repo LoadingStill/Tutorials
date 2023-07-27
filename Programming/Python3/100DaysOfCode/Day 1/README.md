@@ -31,6 +31,11 @@ Hello World!
 Hello World!
 ```
 
+`print("Hello" + "Ryan")`
+Will print `HelloRyan`
+There is no space to the end of Hello, the beginning of Ryan or added in the middle.  So there will be no space outputted.  
+
+
 ### Debugging  
 ```
 print ("Hello world!)
