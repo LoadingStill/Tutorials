@@ -1,4 +1,3 @@
-![Commit Activity](https://img.shields.io/static/v1?label=Commits&message=COUNT&color=blue)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/LoadingStill/Tutorials)
 ![GitHub last commit](https://img.shields.io/github/last-commit/LoadingStill/Tutorials)
 # Programming Tutorials - Python 3
