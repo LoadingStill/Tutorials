@@ -7,7 +7,7 @@
 print ("Hello world!")
 ```
 Printing will remove the "" when used to print string (text), not code.  
-"" Shows the beginning and the end of a string.  
+**""** Shows the beginning and the end of a string.  
 
 
 ### Commenting  
