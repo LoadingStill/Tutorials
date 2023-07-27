@@ -2,7 +2,10 @@
 
 ## Lessons
 ### Printing  
-
+* Printing is done with the print command
+```
+print ("hello world")
+```
 
 ### Commenting  
 
