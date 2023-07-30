@@ -26,8 +26,10 @@ Input and printing can be done on the same line or on seprate lines, these have 
 ```
 name=input("What is you name? ")
 print(len(name))
+```
 ```   
-`print('Hello ' + input('What is your name?') + "!")`
+print('Hello ' + input('What is your name?') + "!")
+```
 
 
 ### Commenting  
