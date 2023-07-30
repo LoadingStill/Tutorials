@@ -28,7 +28,7 @@ name=input("What is you name? ")
 print(len(name))
 ```
 ```   
-print('Hello ' + input('What is your name?') + "!")
+print('Hello ' + input('What is your name?') + "!") # In this the code will first ask you your name, then print, "Hello ...." The input name.
 ```
 
 
