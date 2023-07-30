@@ -30,6 +30,7 @@ print(len(name))
 ```
 # In this the code will first ask you your name, then print, "Hello ...." The input name.
 print('Hello ' + input('What is your name?') + "!")
+# This also works if you highlight multiple lines at once and use `CTL + /` all the lines will either be commented or uncommented.
 ```
 
 
