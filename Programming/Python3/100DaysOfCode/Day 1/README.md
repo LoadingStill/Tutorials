@@ -23,12 +23,12 @@ There is no space to the end of Hello, the beginning of Ryan or added in the mid
 
 
 Input and printing can be done on the same line or on seprate lines, these have the same end, but get to the end in different but simmilar ways.
-```
-name=input("What is you name? ")
-print(len(name))
 
-print('Hello ' + input('What is your name?') + "!")
-```
+`name=input("What is you name? ")
+print(len(name))`
+
+`print('Hello ' + input('What is your name?') + "!")`
+
 
 ### Commenting  
 ```
