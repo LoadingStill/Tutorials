@@ -48,6 +48,9 @@ print ("Hello world!") # this is a comment
 This block of code will print, `Hello World!`  
 Nothing will follow it. Comments are not shown anywhere expect in the source code.  The output omits coments.
 
+Shortcut Keys:
+In a Python IDE like
+
 
 
 ### Debugging  
