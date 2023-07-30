@@ -49,7 +49,7 @@ This block of code will print, `Hello World!`
 Nothing will follow it. Comments are not shown anywhere expect in the source code.  The output omits coments.
 
 Shortcut Keys:
-In a Python IDE like PyCharm you can use _CTL + /_ to auto put a # or _Command + /_.
+In a Python IDE like PyCharm you can use `CTL + /` to auto put a # or `Command + /`.
 
 
 
