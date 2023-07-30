@@ -27,8 +27,9 @@ Input and printing can be done on the same line or on seprate lines, these have 
 name=input("What is you name? ")
 print(len(name))
 ```
-```   
-print('Hello ' + input('What is your name?') + "!") # In this the code will first ask you your name, then print, "Hello ...." The input name.
+```
+# In this the code will first ask you your name, then print, "Hello ...." The input name.
+print('Hello ' + input('What is your name?') + "!")
 ```
 
 
